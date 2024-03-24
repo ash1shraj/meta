@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("https://i.gifer.com/9viJ.gif");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header h1{
+  color: rgb(236, 229, 229);
+}
+.main p span{
+  color: rgb(229, 111, 21);
+  font-weight: 800;
+}
+.main p{
+  font-weight: 900;
+}
+.main button{
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 20px;
+  color: antiquewhite;
+  background-color: rgb(26, 105, 223);
+  border:none;
+  font-weight: 600;
+}
+.main button:hover{
+  background-color: rgb(93, 120, 161);
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.user-info {
+  margin-top: 20px;
+}
+
+.action-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.connect-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.transactions {
+  margin-top: 20px;
+  background-color: rgb(43, 175, 137);
+}
+.transactions h2{
+  color: rgb(255, 242, 242);
+}
+
+
+.list-items {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 5px solid #bc1717;
+  color: rgb(180, 35, 35);
+}
+.list-items span{
+   background-color: rgb(162, 228, 39);
+  
+}
